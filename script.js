@@ -9,7 +9,12 @@ if (document.querySelector("#newtask input").value.length==0){
     <button class="delete" onclick="deleteTask()"> </button>
     </div>
     `
-}
+    var tasks = document.querySelectorAll(".task");
+    for (var i = 0; i < tasks.length; i++) {
+    tasks[i].onclick = function() {
+        this.classList.toggle("completed");}
+    }
+    }
 }
 
 function deleteTask(){
