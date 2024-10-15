@@ -1,0 +1,55 @@
+*, *:before, *:after{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background:linear-gradient(#7268A6,#86a3c3);
+}
+.container{
+  top: 30%;
+  width: 40%;
+  padding: 30px 40px;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  min-width: 450px;
+}
+#newtask{
+  background-color: white;
+  padding: 20px;
+  border-radius: 40px;
+  border: rgba(0, 0, 0, 0.634) solid 2px;
+  position: relative;
+}
+#newtask input{
+  width: 70%;
+  height: 30px;
+  border: none;
+  color: grey;
+  font-family:Verdana, Tahoma, sans-serif;
+  cursor: text;
+  outline: none;
+}
+#newtask button{
+  float: right;
+  position: relative;
+  width: 10%;
+  height: 30px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: whitesmoke;
+  box-shadow: 3px 3px 5px lightgray;
+  color: #7268A6;
+  font-family:Verdana, Tahoma, sans-serif;
+  cursor: pointer;
+}
+#tasks{
+  background-color: white;
+  padding: 20px;
+  border: rgba(0, 0, 0, 0.634) solid 2px;
+  position: relative;
+  margin-top: 30px;
+}
