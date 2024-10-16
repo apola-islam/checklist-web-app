@@ -6,7 +6,7 @@ if (document.querySelector("#newtask input").value.length==0){
     += `
     <div class=task> 
     <span id="taskname"> ${document.querySelector("#newtask input").value}</span>
-    <button class="delete" onclick="deleteTask()"> </button>
+    <button class="delete" onclick="deleteTask()"> X </button>
     </div>
     `
     var tasks = document.querySelectorAll(".task");
